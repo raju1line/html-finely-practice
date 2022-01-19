@@ -6,10 +6,79 @@ body{
         padding:0;
 }
 
+
+.logo{
+  font-weight:bold;
+  color:#FFF;
+  font-size:30px;
+  letter-spacing:.2em;
+  
+}
+
+.nav-link li{
+  
+    list-style:none;
+    display:inline-block;
+    margin: -20px 20px;
+    
+}
+.nav-link a:hover{
+      color:#ff5733;
+}
+
+.nav-link a{
+    
+    font-size:22px;
+    text-decoration:none;
+    color:#fff;
+  
+}
+
+.manubar button{
+  border:none;
+  margin-right:30px;
+  margin-top:6px;
+  background-color:#ff5733;
+  padding:10px 30px;
+  font-size:20px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.manubar button :hover{
+   background-color:#460356;
+   transition:all .3s ease 0s
+}
+
+.manubar{
+  background-color: #55576EC2;
+  display:flex;
+  justify-content:space-between;
+  margin:5px 10px 0px 60px;
+  border-radius:15px;
+  
+  }
+
+.manubar p{
+  margin:2px 10px;
+  
+  
+  
+}
+
+.nav-link{
+  
+  
+}
+
+
+
+
 .heder-section{
 display:flex;
-  padding:50px;
+  padding:40px;
   position:relative;
+  margin-top:0px;
   
 }
 
@@ -29,16 +98,15 @@ display:flex;
   margin:0px;
   font-family: 'Lora', serif;
   font-size:50px;
-  border-left:10px solid #000;
-  border-image:linear-gradient(178deg,#0DEB5B,#EB0D79);
-  border-image-slice:1
+  border-left:10px solid red;
+  
  }
  .heder-conten h2{
       
       font-size:30px;
      }
   .heder-color{
-    color:#0DEB24;
+    color:#EA01D3;
   }
  
  
@@ -62,9 +130,10 @@ display:flex;
     width:0ch;
     white-space:nowrap;
     overflow: hidden;
-    animation:text 10s steps(28)infinite;
+    animation:text 9s steps(28)infinite;
     border-right:6px solid #0DEB66;
     color:#FFF;
+    letter-spacing:.1em;
  }
  
  @keyframes text{
@@ -72,7 +141,7 @@ display:flex;
        width:0ch;
      }
      50%{
-       width:20ch
+       width:26ch;
      }
  }
  
