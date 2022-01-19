@@ -12,6 +12,7 @@ body{
   color:#FFF;
   font-size:30px;
   letter-spacing:.2em;
+  padding:5px 20px;
   
 }
 
@@ -37,11 +38,11 @@ body{
 .manubar button{
   border:none;
   margin-right:30px;
-  margin-top:6px;
+  margin-top:10px;
   background-color:#ff5733;
   padding:10px 30px;
   font-size:20px;
-  border-radius:10px;
+  border-radius:20px;
   cursor:pointer;
 }
 
@@ -97,13 +98,14 @@ display:flex;
 .heder-conten h1{
   margin:0px;
   font-family: 'Lora', serif;
-  font-size:50px;
+  font-size:30px;
   border-left:10px solid red;
+  padding-left:10px;
   
  }
  .heder-conten h2{
       
-      font-size:30px;
+      font-size:20px;
      }
   .heder-color{
     color:#EA01D3;
@@ -111,7 +113,7 @@ display:flex;
  
  
  .heder-conten p{
-   font-size:20px;
+   font-size:18px;
    
  }
  
