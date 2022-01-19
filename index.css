@@ -13,6 +13,7 @@ body{
   font-size:30px;
   letter-spacing:.2em;
   padding:5px 20px;
+  cursor:pointer;
   
 }
 
@@ -43,16 +44,16 @@ body{
   padding:10px 30px;
   font-size:20px;
   border-radius:20px;
-  cursor:pointer;
+  
 }
 
-.manubar button :hover{
-   background-color:#460356;
-   transition:all .3s ease 0s
+.manubarb button:hover{
+   background-color:#0CC396;
+   transition:all .3s ease 0s;
 }
 
 .manubar{
-  background-color: #55576EC2;
+  background-color:#460356;
   display:flex;
   justify-content:space-between;
   margin:5px 10px 0px 60px;
@@ -62,21 +63,10 @@ body{
 
 .manubar p{
   margin:2px 10px;
-  
-  
-  
 }
-
-.nav-link{
   
-  
-}
-
-
-
-
-.heder-section{
-display:flex;
+ .heder-section{
+  display:flex;
   padding:40px;
   position:relative;
   margin-top:0px;
@@ -113,7 +103,7 @@ display:flex;
  
  
  .heder-conten p{
-   font-size:18px;
+   font-size:14px;
    
  }
  
