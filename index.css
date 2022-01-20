@@ -68,7 +68,7 @@ body{
   background-color:#CA2595;
   font-size:20px;
   border-radius:20px;
-  padding:8px 20px;
+  padding:8px 20px 8px 20px;
   margin-right:6px;
   
 }
@@ -155,10 +155,11 @@ body{
     width:0ch;
     white-space:nowrap;
     overflow: hidden;
-    animation:text 10s steps(28)infinite;
+    animation:text 8s steps(28)infinite;
     border-right:6px solid #0DEB66;
     color:red;
     letter-spacing:.1em;
+    transition:all .3s ease 0s;
  }
  
  @keyframes text{
@@ -190,10 +191,12 @@ body{
    width:400px;
    margin:10px 10px;
    border-radius:10px;
+   
  } 
  .mid-img div:hover{
    transform:scale(1.1);
    z-index:2;
+   transition:all .3s ease 0s;
  }
  
  .mid-img1{
